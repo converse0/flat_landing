@@ -83,6 +83,7 @@ body {
 	background: #6f5467;
 	border-bottom: solid 1px;
 	padding-top: 20px;
+	border-color: #6f5467;
 
 }
 
@@ -142,6 +143,7 @@ body {
 	background: #4dae96;
 	border-bottom: solid 1px;
 	padding-top: 20px;
+	border-color:#4dae96; 
 }
 
 .bl2__text1{
@@ -193,6 +195,7 @@ body {
 	background: #8d9db5;
 	border-bottom: solid 1px;
 	padding-top: 20px;
+	border-color: #8d9db5;
 }
 
 .bl3__text{
@@ -243,6 +246,7 @@ body {
 	background: #fff;
 	border-bottom: solid 1px;
 	padding-top: 20px;
+	border-color: #fff;
 }
 
 .footer li {
