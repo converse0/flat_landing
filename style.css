@@ -14,9 +14,12 @@ body {
 }
 
 #pan ul{
-	margin-right: 60px;
-	margin-top:0px;
+	float: left;
+	margin-left: 174px;
+	margin-top:18px;
 	font-family: 'Myriad Pro', 'sans serif';
+	padding-left: 0px;
+
 }
 
 .pan {
@@ -47,6 +50,7 @@ body {
 }
 
 #logo {
+	float:left;
 	width:220px;
 	padding-top: 17px;
 	display: inline-block;
@@ -65,13 +69,50 @@ body {
 }
 
 .but {
+	margin-right: 79px;
+	user-select: none;
+	float: right;
 	width: 117px;
 	background: #4dae96;
 	border-radius: 6px;
 	border:none;
-	padding:15px;
+	padding:12px 0;
 	color:#fff;
 	font-size: 15px;
+	margin-top: 22px;
+	font-family: 'MyriadPro', Arial;
+	font-weight: 300px;
+	font-style: normal;
+	font-size: 17px;
+	cursor: pointer;
+	transition: 0.4s;
+	text-align: center;
+}
+
+#modal {
+	width: 420px;
+	color:#2c3e50;
+	text-align: center;
+	background: #4dae96;
+}
+
+.send_mail__field {
+	margin: 10px 5px;
+	padding: 7px 10px;
+	border: none;
+	width: 90%;
+}
+
+.send_mail__checkbox{
+	margin: 20px auto;
+
+}
+
+.button_send{
+	background: #a5dcce;
+}
+.button_send:hover{
+   background: #88EFD1;
 }
 
 .bl1{width: 600;margin-top: 46px;}
@@ -115,26 +156,31 @@ body {
 	margin-top: -290px;
 	padding-right: 80px;
 }
-.but2{
+#but2{
 	margin:0 auto;
 	display: table;
 	padding-right: 75px;
 }
 
 
-.but2 button{
+#but2 a{
+	text-transform: uppercase;
 	width: 300px;
 	background:#d35400;
 	border-radius: 9px;
 	border:none;
-	padding:20px;
+	padding:15px 0;
 	color:#fff;
 	font-size: 28px;
+	text-align: center;
 	font-family: 'Myriad Pro', 'sans serif';
 	box-shadow: 0px 10px 2px 0px #b4491f;
-
-	margin-top: 13px;
-	/* margin-left: 120px; */
+	margin-top: 20px;
+	margin-bottom: 80px;
+	font-style: normal;
+	font-weight: 300;
+	transition: 0,4s;
+	letter-spacing: 1px;
 }
 
 #bl2{
@@ -304,4 +350,46 @@ a.footer_link.tw {
 	font-size:14px;
 	display: table;
 	text-align: center;
+}
+
+
+
+
+
+
+@media (max-width: 480px){
+.container {
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.bl1{
+	width: 100%
+}
+
+.bl1 img{
+	display: none;
+}
+
+#logo h6{
+	display: none;
+}
+
+.h2{
+	width:320px;
+	text-align: center;
+	margin-left: 0px;
+	font-size: 30px;
+}
+
+.bl1 p{
+	width: 270px;
+	margin-left: 13px;
+}
+
+.pan ul{
+	margin-
+}
+
 }

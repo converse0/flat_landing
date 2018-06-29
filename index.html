@@ -15,8 +15,8 @@
       <li><a href="">About</a></li>
       <li><a href="">Benefist</a></li>
       <li><a href="">Download</a></li>
-      <li><button class="but">Sign Up</button></li>
     </ul>
+    <a class="but">Sign Up</a>
   </div>
   </nav>
 <section id="bl1">
@@ -26,11 +26,24 @@
       <h2 class="h2"> GREAT SMARTPHONE APP <br> JUST FOR YOU!</h2>
 
       <p class="bl1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      <div id="but2"><a data-fancybox data-src="#modal" href="javascript:;" href="#">Download now</a> </div>
+
+       <div style="display: none;" id="modal">
+        <form action="modalform.php" method="post" class="send_mail">
+        <input class="send_mail__field" maxlength="50" type="text" name="name" placeholder="Your name">
+
+        <input class="send_mail__field" maxlength="50" type="email" name="email" placeholder="Your e-mail">
+
+        <textarea type="text" class="send_mail__field"  wrap="physical"  name="message" placeholder="Type your message" rows="12" value=""></textarea><br>
+
+        <input class="send_mail__checkbox" type="checkbox">  Send a copy to my Email <br>
+
+        <button class="send_mail__field button_send" type="submit" >Send</button>
+        </form>
+            </div>
+
+
       <img src="img/smartphone.png">
-      <div class="but2">
-      <button>DOWNLOAD NOW</button>
-    </div>
-    </div>
   </div>
 </section>
 
