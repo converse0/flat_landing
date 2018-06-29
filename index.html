@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Flat landing</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="jquery.fancybox.min.css">
 
-<body>  
-  <nav id="pan">
+  <title>Flat landing</title>
+</head>
+
+<body>
+  <header>
     <div class="container">
-      <div id="logo"><img src="img/company_logo.png"><h6>Company logo</h6></div>
-    <ul class="pan">
-      <li><a href="">About</a></li>
-      <li><a href="">Benefist</a></li>
-      <li><a href="">Download</a></li>
-    </ul>
-    <a class="but">Sign Up</a>
-  </div>
-  </nav>
-<section id="bl1">
-  <div class="container">
-    <div class="bl1">
-  
-      <h2 class="h2"> GREAT SMARTPHONE APP <br> JUST FOR YOU!</h2>
+      <nav id="nav">
 
-      <p class="bl1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-      <div id="but2"><a data-fancybox data-src="#modal" href="javascript:;" href="#">Download now</a> </div>
+        <div id="logo"><img src="img/company_logo.png"><h6>Company logo</h6></div>
+        <div class="menu">
+          <ul class="nav">
 
-       <div style="display: none;" id="modal">
+            <li id="gamburger"></li>
+            <div id="hover">
+
+              <li><a href="">About</a></li>
+              <li><a href="">Benefist</a></li>
+              <li><a href="">Download</a></li>
+            </div>
+
+          </ul>
+          <a class="dow ">Sign up</a>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id="first">
+   <div class="container">
+
+    <div id="first_section">
+     <div id="title"><h2 class="title">Great Smartphone app just for you!</h2>
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  </p>
+      <div id="dwn"><a data-fancybox data-src="#modal" href="javascript:;"  href="#">Download now</a> </div>
+
+      <div style="display: none;" id="modal">
         <form action="modalform.php" method="post" class="send_mail">
         <input class="send_mail__field" maxlength="50" type="text" name="name" placeholder="Your name">
 
@@ -39,64 +53,63 @@
         <input class="send_mail__checkbox" type="checkbox">  Send a copy to my Email <br>
 
         <button class="send_mail__field button_send" type="submit" >Send</button>
-        </form>
-            </div>
+</form>
+      </div>
 
-
-      <img src="img/smartphone.png">
+    </div>
+    <div class="smart_img"><img src="img/smartphone.png" alt=""></div>
   </div>
-</section>
 
-<section id="bl2">
-  <div class="container">
-      <p class="bl2__text1"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes.
-      </p>
-  <div class="flex">
-    <div class="flex1"><img src="img/airplane.png"><p><b>Lorem ipsum do</b>lor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.  </p></div>
-   <div class="flex1"><img src="img/stat.png"><p><b>Lorem ipsum dolor sit amet</b>, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. .   </p></div> 
-    <div class="flex1"><img src="img/rocket.png"><p><b>Lorem ipsum dolor sit amet</b>, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat .  </p></div> 
-    <div class="but2">
-      <button>DOWNLOAD NOW</button>
-    </div>
-
-    </div>
-    </div>
-
-</section>
-
-<section id="bl3">
-  <div class="container">
-    <div class="bl3__text">
-      <p class="text">HERE IS A SHORT VIDEO PRESENTATION ABOUT OUR PRODUCT</p>
-      <div class="bl3__text1" >
-      <p class="text1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-    </div>
-    </div>
-
-    <div class="vid">
-<iframe style="border-radius: 9px" width="654" height="395" src="https://www.youtube.com/embed/X-1PsaFlY0E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
+</section>
 
+<section id="second_section">
+  <div class="container">
+    <p class="title_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+    <div class="items">
+      <div class="item1"><img src="img/airplane.png" alt="">
+        <p><b>Lorem ipsum dolor sit amet</b>, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+      </div>
+      <div class="item1"><img src="img/stat.png" alt=""><p><b>Lorem ipsum dolor sit amet</b>, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p></div>
+      <div class="item1"><img src="img/rocket.png" alt=""><p><b>Lorem ipsum dolor sit amet</b>, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p></div>
+    </div>
+    <div id="dwn" class="dwn__bottom"><a data-fancybox data-src="#modal" href="javascript:;"  href="#">Download now</a> </div>
+  </div>
+</div>
+</section>
+
+<section id="third_section">
+  <div class="container">
+    <h2 class="title">Here is a short video presentation about our product</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.sem.</p>
+    <div class="third_section__video">
+      <iframe style="border-radius: 9px; max-width: 100%" width="560" height="315" src="https://www.youtube.com/embed/5PWNgmfgc8Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
   </div>
 </section>
 
-<footer>
+<footer class="footer">
   <div class="container">
-    <div class="footer">
-  <ul>
-    <li><a href="" class="footer_link fb"></a></li>
-    <li><a href="" class="footer_link yt"></a></li>
-    <li><a href="" class="footer_link ch"></a></li>
-    <li><a href="" class="footer_link in"></a></li>
-    <li><a href="" class="footer_link tw"></a></li>
-  </ul> 
-    <p class="footer__text">Copyright 2013 Company Name.All rights reserved.<br> from Nethusiastic.com</p>
+
+    <ul>
+      <li><a href="" class="footer_link fb" ></a></li>
+      <li><a href="" class="footer_link yt" ></a></li>
+      <li><a href="" class="footer_link ic"></a></li>
+      <li><a href="" class="footer_link in"></a></li>
+      <li><a href="" class="footer_link tw"></a></li>
+    </ul>
+
+    <p>Copyright &copy 2013 Company Name. All rights reserves. <br>from Nethusiastic.com</p>
   </div>
-  </div>
+
+  <script src="script/jquery-3.3.1.min.js"></script>
+  <script src="script/script.js"></script>
+  <script src="script/jquery.fancybox.min.js"></script>
+
 </footer>
+
+
+
 
 </body>
 </html>
-
-
-
